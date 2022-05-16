@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from '../../components/card/Card'
+import Footer from '../../components/footer/Footer'
 import { CardsList } from '../../utils/List'
 import './Products.scss'
 
@@ -21,6 +22,7 @@ export default function Products() {
           }
         </div>
       </div>
+      <Footer/>
     </>
   )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../components/footer/Footer'
 
 import './Home.scss'
 
@@ -27,6 +28,7 @@ export default function Home() {
           From the late 1980s Nike steadily expanded its business and diversified its product line through numerous acquisitions, including the shoe companies Cole Haan (1988; sold in 2012) and Converse, Inc. (2003), the sports-equipment producer Canstar Sports, Inc. (1994; later called Bauer and sold in 2008), and the athletic apparel and equipment company Umbro (2008; sold in 2012). In 1996 the company created Nike ACG (“all-conditions gear”), which markets products for extreme sports such as snowboarding and mountain biking. In the early 21st century Nike began selling sports-technology accessories, including portable heart-rate monitors and high-altitude wrist compasses.
         </p>
       </div>
+      <Footer/>
     </>
   )
 }

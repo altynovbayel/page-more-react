@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom'
+import Footer from '../../components/footer/Footer'
 import { BasketCards, CardsList } from '../../utils/List'
 import './ProductsMore.scss'
 
@@ -28,6 +29,7 @@ export default function ProductsMore() {
           </div>
         </div>
      </div>
+     <Footer/>
     </>
   )
 }
